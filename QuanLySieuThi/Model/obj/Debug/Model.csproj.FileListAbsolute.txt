@@ -10,3 +10,15 @@ E:\Tai lieu CNTT\Nam 5\Project_QuanlySieuThi\QuanLySieuThi\Model\obj\Debug\Model
 E:\Tai lieu CNTT\Nam 5\Project_QuanlySieuThi\QuanLySieuThi\Model\obj\Debug\Model.csproj.CopyComplete
 E:\Tai lieu CNTT\Nam 5\Project_QuanlySieuThi\QuanLySieuThi\Model\obj\Debug\Model.exe
 E:\Tai lieu CNTT\Nam 5\Project_QuanlySieuThi\QuanLySieuThi\Model\obj\Debug\Model.pdb
+D:\C#\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\Model.exe.config
+D:\C#\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\Model.exe
+D:\C#\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\Model.pdb
+D:\C#\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\EntityFramework.dll
+D:\C#\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\C#\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\EntityFramework.xml
+D:\C#\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\C#\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.csprojAssemblyReference.cache
+D:\C#\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\C#\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.csproj.CopyComplete
+D:\C#\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.exe
+D:\C#\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.pdb

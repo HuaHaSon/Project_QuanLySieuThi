@@ -49,9 +49,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EF\NhaCungCap.cs" />
-    <Compile Include="EF\QuanLySieuThi_DBContext.cs" />
-    <Compile Include="EF\SanPham.cs" />
+    <Compile Include="BAL\ISanpham.cs" />
+    <Compile Include="DAL\SanPhamDAL.cs" />
+    <Compile Include="DTO\Status.cs" />
+    <Compile Include="Entity\Base.cs" />
+    <Compile Include="Entity\NhaCungCap.cs" />
+    <Compile Include="Entity\QuanLySieuThi_DBContext.cs" />
+    <Compile Include="Entity\SanPham.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
