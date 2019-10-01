@@ -53,9 +53,20 @@
     <Compile Include="DAL\SanPhamDAL.cs" />
     <Compile Include="DTO\Status.cs" />
     <Compile Include="Entity\Base.cs" />
+    <Compile Include="Entity\CTDonGiaBan.cs" />
+    <Compile Include="Entity\CTDonGiaNhap.cs" />
+    <Compile Include="Entity\CTHoaDon.cs" />
+    <Compile Include="Entity\CTPhieuNhap.cs" />
+    <Compile Include="Entity\DonGiaBan.cs" />
+    <Compile Include="Entity\DonGiaNhap.cs" />
+    <Compile Include="Entity\HoaDon.cs" />
     <Compile Include="Entity\NhaCungCap.cs" />
+    <Compile Include="Entity\NhanVien.cs" />
+    <Compile Include="Entity\PhieuNhap.cs" />
     <Compile Include="Entity\QuanLySieuThi_DBContext.cs" />
     <Compile Include="Entity\SanPham.cs" />
+    <Compile Include="Entity\SanPham_NCC.cs" />
+    <Compile Include="Entity\TaiKhoan.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

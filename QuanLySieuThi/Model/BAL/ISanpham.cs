@@ -1,4 +1,4 @@
-﻿using Model.EF;
+﻿using Model.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ namespace Model.DAL
 {
     public interface ISanPham
     {
-        List<SanPham> ListSanPham();
+        IEnumerable<SanPham> ListSanPham();
         SanPham GetById(long id);
         bool AddSanPham(SanPham sanPham);
         bool DeleteSanpham(long id);

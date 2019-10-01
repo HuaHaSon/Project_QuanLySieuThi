@@ -22,3 +22,15 @@ D:\C#\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.csproj.CoreCompi
 D:\C#\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.csproj.CopyComplete
 D:\C#\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.exe
 D:\C#\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.pdb
+E:\GitHub\Project_QuanLySieuThi\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\Model.exe.config
+E:\GitHub\Project_QuanLySieuThi\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\Model.exe
+E:\GitHub\Project_QuanLySieuThi\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\Model.pdb
+E:\GitHub\Project_QuanLySieuThi\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\EntityFramework.dll
+E:\GitHub\Project_QuanLySieuThi\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\GitHub\Project_QuanLySieuThi\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\EntityFramework.xml
+E:\GitHub\Project_QuanLySieuThi\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\GitHub\Project_QuanLySieuThi\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.csprojAssemblyReference.cache
+E:\GitHub\Project_QuanLySieuThi\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+E:\GitHub\Project_QuanLySieuThi\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.csproj.CopyComplete
+E:\GitHub\Project_QuanLySieuThi\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.exe
+E:\GitHub\Project_QuanLySieuThi\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.pdb

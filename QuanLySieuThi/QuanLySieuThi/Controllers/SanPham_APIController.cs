@@ -1,5 +1,5 @@
 ﻿using Model.DAL;
-using Model.EF;
+using Model.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;

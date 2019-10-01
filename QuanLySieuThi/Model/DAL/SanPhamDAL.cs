@@ -1,4 +1,4 @@
-﻿using Model.EF;
+﻿using Model.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +11,7 @@ namespace Model.DAL
     {
         QuanLySieuThi_DBContext db = new QuanLySieuThi_DBContext();
 
-        public List<SanPham> ListSanPham()
+        public IEnumerable<SanPham> ListSanPham()
         {
             return db.SanPhams.ToList();
         }
