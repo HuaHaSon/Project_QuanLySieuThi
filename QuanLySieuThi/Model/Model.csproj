@@ -50,6 +50,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BAL\ISanpham.cs" />
+    <Compile Include="BAL\ILogin.cs" />
+    <Compile Include="DAL\LoginDAL.cs" />
+    <Compile Include="DAL\MID5.cs" />
     <Compile Include="DAL\SanPhamDAL.cs" />
     <Compile Include="DTO\Status.cs" />
     <Compile Include="Entity\Base.cs" />
@@ -64,6 +67,7 @@
     <Compile Include="Entity\NhanVien.cs" />
     <Compile Include="Entity\PhieuNhap.cs" />
     <Compile Include="Entity\QuanLySieuThi_DBContext.cs" />
+    <Compile Include="Entity\Quyen.cs" />
     <Compile Include="Entity\SanPham.cs" />
     <Compile Include="Entity\SanPham_NCC.cs" />
     <Compile Include="Entity\SLTon.cs" />

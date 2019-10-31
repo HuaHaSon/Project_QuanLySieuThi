@@ -1,0 +1,48 @@
+		
+		div.canhle
+		{
+			margin-top: 80px;
+		}
+		.btn-googleplus {
+	  background: #E93F2E;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #b72213;
+	}
+	.btn-googleplus:link, .btn-googleplus:visited {
+	  color: #fff;
+	}
+	.btn-googleplus:active, .btn-googleplus:hover {
+	  background: #b72213;
+	  color: #fff;
+	}
+
+	h6 { 
+            display: flex; 
+            flex-direction: row; 
+
+        } 
+          
+   	h6:before, 
+    h6:after { 
+           content: ""; 
+           flex: 1 1; 
+           border-bottom: 1px solid #8c8b8b; 
+           margin: auto; 
+
+        } 
+
+    .center_text
+    {
+    	text-align: center;
+    }
+    div.canhle_detail
+		{
+			margin-top: 40px;
+		}
+	span.color
+	{
+		color: #1E90FF;
+	}

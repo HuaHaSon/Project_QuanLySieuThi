@@ -9,7 +9,7 @@ using System.Web.Http;
 
 namespace QuanLySieuThi.Controllers
 {
-    [Route("api/v1/sanpham")]
+    //[Route("api/v1/sanpham")]
     
     public class SanPham_APIController : ApiController
     {
