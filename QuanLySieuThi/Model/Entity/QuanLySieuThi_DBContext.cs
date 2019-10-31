@@ -27,5 +27,6 @@ namespace Model.Entity
         public DbSet<CTHoaDon> cTHoaDons { get; set; }
         public DbSet <TaiKhoan> taiKhoans { get; set; }
         public DbSet<NhanVien> nhanViens { get; set; }
+        public DbSet<SLTon> sLTons { get; set; }
     }
 }

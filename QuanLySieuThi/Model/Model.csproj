@@ -66,6 +66,7 @@
     <Compile Include="Entity\QuanLySieuThi_DBContext.cs" />
     <Compile Include="Entity\SanPham.cs" />
     <Compile Include="Entity\SanPham_NCC.cs" />
+    <Compile Include="Entity\SLTon.cs" />
     <Compile Include="Entity\TaiKhoan.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

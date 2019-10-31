@@ -34,3 +34,15 @@ E:\GitHub\Project_QuanLySieuThi\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\De
 E:\GitHub\Project_QuanLySieuThi\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.csproj.CopyComplete
 E:\GitHub\Project_QuanLySieuThi\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.exe
 E:\GitHub\Project_QuanLySieuThi\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.pdb
+D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\Model.exe.config
+D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\Model.exe
+D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\Model.pdb
+D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\EntityFramework.dll
+D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\EntityFramework.xml
+D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.csprojAssemblyReference.cache
+D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.csproj.CopyComplete
+D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.exe
+D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.pdb
