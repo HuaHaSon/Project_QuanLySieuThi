@@ -2,41 +2,49 @@
     $("#form").on("submit", function (e) {
         e.preventDefault();
         if ($("#tk").val() == "" || $("#pwd").val() == "")
-            alert("Vui lòng nhập thông tin đăng nhập!");
+            alert_btnOK("Thông tin đăng nhập thiếu!");
         else {
-            var TK = { "TenTK": $("#tk").val(), "MatKhau": $("#pwd").val() };
+            var TK = {
+                username: $("#tk").val(),
+                password: $("#pwd").val(),
+                grant_type: "password"
+            };          
             $.ajax({
-                url: "/Login/LoginTK",
-                method: "POST",
-                data: JSON.stringify(TK),
-                dataType: "json",
-                contentType: "application/json",
-                success: function (data) {
-                    if (data.TenQuyen == "User_Kho" || data.TenQuyen=="User_BanHang") {
-                        alert("Đăng nhập thành công!");
-                        window.location = "/NhanVienHome/Index";
+                url: Config.HOST+"oauth2/token",
+                type: "POST",
+                data: TK,
+                success: function (data) {                                        
+                    Cookies.set("User_token", data.access_token, { expires: 1 / 24 / 1});
+                    var rs = parseJwt(data.access_token);
+                    Cookies.set("User_info", rs, { expires: 1 / 24 / 1 });
+
+
+                    if (rs.role.findIndex(e => e == "Admin") !=-1) {
+                        customAlert("Đăng nhập thành công", "success", false, 1500);
+                        window.location = "/NhanVienBanHang/Index";
                     }
-                    else
-                        alert("Tài khoản không tồn tại!");
+                    else if (rs.role.findIndex(e => e == "User_BanHang") != -1) {
+                        customAlert("Đăng nhập thành công", "success", false, 1500);
+                        window.location = "/NhanVienBanHang/Index";
+                    }
+                    else if (rs.role.findIndex(e => e == "User_ThongKe") != -1) {
+                        customAlert("Đăng nhập thành công", "success", false, 1500);
+                        window.location = "/NhanVienThongKe/Index";
+                    }
+                    else if (rs.role.findIndex(e => e == "User_Kho") != -1) {
+                        customAlert("Đăng nhập thành công", "success", false, 1500);
+                        window.location = "/NhanVienKho/Index";
+                    }
+                    else 
+                        customAlert("Tài khoản chưa được phân quyền", "error", true, 1500);
+                    
+                        
                 },
                 error: function () {
-                    alert("Đăng nhập không thành công")
+                    customAlert("Tài khoản hoặc mật khẩu không đúng", "error", true, 1500);
                 }
             });
         }
     });
-    $('#logout').click(function () {
-        $.ajax({
-            url: "/Login/LogoutTK",
-            method: "POST",
-            dataType: "json",
-            contentType: "application/json",
-            success: function (data) {
-                window.location = "/Login/Index";
-            },
-            error: function () {
-                alert("Đăng xuất thất bại");
-            }
-        });
-    });
+    
 });

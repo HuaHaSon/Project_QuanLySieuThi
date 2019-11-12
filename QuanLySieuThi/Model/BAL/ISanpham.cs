@@ -1,4 +1,5 @@
-﻿using Model.Entity;
+﻿using Model.DTO;
+using Model.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,9 +11,11 @@ namespace Model.DAL
     public interface ISanPham
     {
         IEnumerable<SanPham> ListSanPham();
-        SanPham GetById(long id);
+        SanPham GetById(string id);
         bool AddSanPham(SanPham sanPham);
-        bool DeleteSanpham(long id);
+        bool DeleteSanpham(string id);
+        List<SanPham> SearchSanPham(SanPhamDTO sanPhamDTO);
+       int GetSLTon(string id);
 
     }
 }

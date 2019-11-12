@@ -9,6 +9,6 @@ namespace Model.BAL
 {
     public interface ILogin
     {
-        bool LoginTK(TaiKhoan taiKhoan);
+        
     }
 }

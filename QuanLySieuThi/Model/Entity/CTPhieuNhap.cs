@@ -9,10 +9,10 @@ namespace Model.Entity
 {
     public class CTPhieuNhap:Base
     {
-        public long MaPN { get; set; }
+        public string MaPN { get; set; }
         [ForeignKey("MaPN")]
         public PhieuNhap phieuNhap { get; set; }
-        public long MaSP { get; set; }
+        public string MaSP { get; set; }
         [ForeignKey("MaSP")]
         public SanPham sanPham { get; set; }
         public int SLNhap { get; set; }

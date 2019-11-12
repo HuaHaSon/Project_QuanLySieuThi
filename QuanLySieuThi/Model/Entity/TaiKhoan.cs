@@ -11,7 +11,7 @@ namespace Model.Entity
     {
         public string TenTK { get; set; }
         public string MatKhau { get; set; }
-        public long MaQuyen { get; set; }
+        public string MaQuyen { get; set; }
         [ForeignKey("MaQuyen")]
         public Quyen quyen { get; set; }
         public ICollection<NhanVien> nhanViens { get; set; }

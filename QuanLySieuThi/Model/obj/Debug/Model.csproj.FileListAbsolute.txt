@@ -41,8 +41,10 @@ D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\Ent
 D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\EntityFramework.SqlServer.dll
 D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\EntityFramework.xml
 D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\EntityFramework.SqlServer.xml
-D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.csprojAssemblyReference.cache
 D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
 D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.csproj.CopyComplete
 D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.exe
 D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.pdb
+D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.csprojAssemblyReference.cache
+D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.Migrations.IntialDb.resources
+D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.csproj.GenerateResource.cache

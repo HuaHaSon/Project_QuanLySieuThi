@@ -11,10 +11,9 @@ namespace Model.Entity
 {
     public abstract class Base
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Key]
-        public long id { get; set; }
-
+        public string id { get; set; } = new Guid().ToString();
+       
         public DateTime createdDate { get; set; }
 
         [DefaultValue(false)]

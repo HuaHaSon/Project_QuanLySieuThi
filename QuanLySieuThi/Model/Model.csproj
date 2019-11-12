@@ -40,6 +40,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -49,11 +50,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BAL\IHoaDon.cs" />
+    <Compile Include="BAL\INhaCungCap.cs" />
     <Compile Include="BAL\ISanpham.cs" />
     <Compile Include="BAL\ILogin.cs" />
+    <Compile Include="DAL\HoaDonDAL.cs" />
     <Compile Include="DAL\LoginDAL.cs" />
-    <Compile Include="DAL\MID5.cs" />
+    <Compile Include="DAL\MD5.cs" />
+    <Compile Include="DAL\NhaCungCapDAL.cs" />
     <Compile Include="DAL\SanPhamDAL.cs" />
+    <Compile Include="DTO\CTHoaDonDTO.cs" />
+    <Compile Include="DTO\HoaDonDTO.cs" />
+    <Compile Include="DTO\NhaCungCapDTO.cs" />
+    <Compile Include="DTO\SanPhamDTO.cs" />
     <Compile Include="DTO\Status.cs" />
     <Compile Include="Entity\Base.cs" />
     <Compile Include="Entity\CTDonGiaBan.cs" />
@@ -72,6 +81,11 @@
     <Compile Include="Entity\SanPham_NCC.cs" />
     <Compile Include="Entity\SLTon.cs" />
     <Compile Include="Entity\TaiKhoan.cs" />
+    <Compile Include="Migrations\201911110515160_IntialDb.cs" />
+    <Compile Include="Migrations\201911110515160_IntialDb.Designer.cs">
+      <DependentUpon>201911110515160_IntialDb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -79,6 +93,10 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201911110515160_IntialDb.resx">
+      <DependentUpon>201911110515160_IntialDb.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

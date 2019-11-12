@@ -10,7 +10,7 @@ namespace Model.Entity
     public class NhanVien:Base
     {
         public string TenNV { get; set; }
-        public long MaTK { get; set; }
+        public string MaTK { get; set; }
         [ForeignKey("MaTK")]
         public TaiKhoan taiKhoan { get; set; }
     }

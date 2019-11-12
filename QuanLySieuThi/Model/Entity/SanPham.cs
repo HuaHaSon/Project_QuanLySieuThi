@@ -13,6 +13,7 @@ namespace Model.Entity
     {
         public string TenSP { get; set; }
         public string MoTa { get; set; }
+        public string UrlImage { get; set; }
         public ICollection<SanPham_NCC> sanPham_NCCs { get; set; }
         public ICollection<CTDonGiaNhap> cTDonGiaNhaps { get; set; }
         public ICollection<CTPhieuNhap> cTPhieuNhaps { get; set; }

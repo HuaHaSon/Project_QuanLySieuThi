@@ -17,5 +17,6 @@ namespace Model.Entity
         public ICollection<DonGiaNhap> donGiaNhaps { get; set; }
         public ICollection<PhieuNhap> phieuNhaps { get; set; }
         public ICollection<CTHoaDon> cTHoaDons { get; set; }
+        public ICollection<SLTon> sLTons { get; set; }
     }
 }

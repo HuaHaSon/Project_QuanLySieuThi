@@ -9,10 +9,10 @@ namespace Model.Entity
 {
     public class CTDonGiaBan : Base
     {
-        public long MaDonGiaBan { get; set; }
+        public string MaDonGiaBan { get; set; }
         [ForeignKey("MaDonGiaBan")]
         public DonGiaBan donGiaBan { get; set; }
-        public long MaSP { get; set; }
+        public string MaSP { get; set; }
         [ForeignKey("MaSP")]
         public SanPham sanPham { get; set; }
         public int GiaBan { get; set; }

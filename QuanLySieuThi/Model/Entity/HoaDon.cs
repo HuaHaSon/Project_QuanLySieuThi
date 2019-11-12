@@ -10,6 +10,7 @@ namespace Model.Entity
     {
         public DateTime NgayHD { get; set; }
         public int TongTien { get; set; }
+
         public ICollection<CTHoaDon> cTHoaDons { get; set; }
     }
 }

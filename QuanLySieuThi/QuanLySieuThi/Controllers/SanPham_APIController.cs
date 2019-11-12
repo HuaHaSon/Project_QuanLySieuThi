@@ -1,4 +1,5 @@
 ﻿using Model.DAL;
+using Model.DTO;
 using Model.Entity;
 using System;
 using System.Collections.Generic;
@@ -9,26 +10,28 @@ using System.Web.Http;
 
 namespace QuanLySieuThi.Controllers
 {
-    //[Route("api/v1/sanpham")]
-    
+    [RoutePrefix("api/sanpham")]
+
     public class SanPham_APIController : ApiController
     {
         private ISanPham ISanPham = new SanPhamDAL();
 
         [HttpGet]
+        [Authorize]
+        [Route("GetAll")] 
         public IHttpActionResult GetAll()
-        {
-            List<SanPham> sanPhams = ISanPham.ListSanPham().Where(e => e.isDeleted == false).ToList();
-            return Ok(sanPhams);
+        {            
+                List<SanPham> sanPhams = ISanPham.ListSanPham().Where(e => e.isDeleted == false).ToList();
+                return Ok(sanPhams);        
         }
         [HttpGet]
-        [Route("/{id}")]
-        public IHttpActionResult GetById(long id)
+        [Route("GetById")]
+        public IHttpActionResult GetById(string id)
         {
             SanPham sanPham = ISanPham.GetById(id);
             return Ok(sanPham);
         }
-        [HttpPost]
+        [HttpPost]      
         public IHttpActionResult Add([FromBody] SanPham sanPham)
         {
             bool rs = ISanPham.AddSanPham(sanPham);
@@ -42,7 +45,7 @@ namespace QuanLySieuThi.Controllers
             }
         }
         [HttpDelete]
-        public IHttpActionResult Delete(long id)
+        public IHttpActionResult Delete(string id)
         {
             bool rs = ISanPham.DeleteSanpham(id);
             if (rs)
@@ -53,6 +56,23 @@ namespace QuanLySieuThi.Controllers
             {
                 return Ok("Đã xảy ra lỗi!");
             }
+        }
+        [HttpPost]
+        [Route("Search")]
+        [Authorize]
+        public IHttpActionResult Search(SanPhamDTO sanPhamDTO)
+        {
+            var rs = ISanPham.SearchSanPham(sanPhamDTO).Where(s=>s.isDeleted==false);
+            return Ok(rs);
+        }
+
+        [HttpPost]
+        [Authorize]
+        [Route("GetSLTon/{id}")]
+        public IHttpActionResult SLTon(string id)
+        {
+            var rs = ISanPham.GetSLTon(id);
+            return Ok(rs);
         }
     }
 }
