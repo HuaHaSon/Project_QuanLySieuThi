@@ -111,43 +111,43 @@ go
 
 /* SLTon */
 insert into SLTons 
-values ('d9a17757-9a9b-4f1d-8602-ef705ca555a4','12','f2e30434-4b22-431c-936c-bd13b4d69890','11/04/2018','false')
+values ('d9a17757-9a9b-4f1d-8602-ef705ca555a4','12','f2e30434-4b22-431c-936c-bd13b4d69890','b3ba0b28-c711-4291-9398-2daece34152b','11/04/2018','false')
 insert into SLTons 
-values ('ab06b0c7-5a0b-4dde-aa4b-a884e9871737','18','784a6243-c445-460a-93eb-ad4b020e5d68','12/04/2018','false')
+values ('ab06b0c7-5a0b-4dde-aa4b-a884e9871737','18','784a6243-c445-460a-93eb-ad4b020e5d68','b6a544a5-0917-4d3b-a975-c1104953f6ed','12/04/2018','false')
 insert into SLTons 
-values ('b7a1551a-8340-4a2a-a9bd-c8cf397cd404','14','bae3c0f1-5c08-4eef-8dec-443b57195d62','01/05/2018','false')
+values ('b7a1551a-8340-4a2a-a9bd-c8cf397cd404','14','bae3c0f1-5c08-4eef-8dec-443b57195d62','28b56d07-3827-48d4-b635-f0bc0f14271a','01/05/2018','false')
 insert into SLTons 
-values ('b95c2520-10e7-421e-96d3-6064b2103c78','17','e99c1092-9c0f-4f17-982e-89f751c9ad47','12/05/2018','false')
+values ('b95c2520-10e7-421e-96d3-6064b2103c78','17','e99c1092-9c0f-4f17-982e-89f751c9ad47','44aad5aa-acef-41e4-9684-c97442f01e12','12/05/2018','false')
 insert into SLTons 
-values ('61bc4d31-df06-4452-a10b-f9fb337348a5','10','18de371f-d8e1-4e26-be3a-d908a72ddcd8','07/01/2019','false')
+values ('61bc4d31-df06-4452-a10b-f9fb337348a5','10','18de371f-d8e1-4e26-be3a-d908a72ddcd8','28094f20-ebba-4292-ac75-df252f8838fe','07/01/2019','false')
 insert into SLTons 
-values ('0d605d01-1d42-4be5-b066-22a7131e2c01','15','77758b08-d93a-438e-8ee7-64d917c68dff','07/01/2019','false')
+values ('0d605d01-1d42-4be5-b066-22a7131e2c01','15','77758b08-d93a-438e-8ee7-64d917c68dff','60c1d22e-ce62-4cd2-9d31-c1cc9da2b5a9','07/01/2019','false')
 insert into SLTons 
-values ('52e32c0d-cd0c-4efb-a434-1e7f2dec6eaf','122','f2e30434-4b22-431c-936c-bd13b4d69890','07/02/2019','false')
+values ('52e32c0d-cd0c-4efb-a434-1e7f2dec6eaf','122','f2e30434-4b22-431c-936c-bd13b4d69890','b3ba0b28-c711-4291-9398-2daece34152b','07/02/2019','false')
 insert into SLTons 
-values ('e3252d33-93ec-4b54-b295-563dc4cddfb1','09','3b51f846-7c53-4ad3-9bfd-9935f51c4070','11/02/2019','false')
+values ('e3252d33-93ec-4b54-b295-563dc4cddfb1','09','3b51f846-7c53-4ad3-9bfd-9935f51c4070','60c1d22e-ce62-4cd2-9d31-c1cc9da2b5a9','11/02/2019','false')
 insert into SLTons 
-values ('0d6f93c8-c65d-4d23-83b9-ff124f7fc09a','15','ff784f1a-688e-403f-b727-bc64aa795ccf','05/02/2019','false')
+values ('0d6f93c8-c65d-4d23-83b9-ff124f7fc09a','15','ff784f1a-688e-403f-b727-bc64aa795ccf','ff784f1a-688e-403f-b727-bc64aa795ccf','05/02/2019','false')
 insert into SLTons 
-values ('d6fc0f72-315d-47fe-b9f7-19919b41e3df','24','18de371f-d8e1-4e26-be3a-d908a72ddcd8','04/05/2019','false')
+values ('d6fc0f72-315d-47fe-b9f7-19919b41e3df','24','18de371f-d8e1-4e26-be3a-d908a72ddcd8','28b56d07-3827-48d4-b635-f0bc0f14271a','04/05/2019','false')
 insert into SLTons 
-values ('dffa423f-ce05-4ec8-92bb-cb0e29b75f95','16','4f16268f-ccc0-4383-a59a-55e17760610d','08/07/2019','false')
+values ('dffa423f-ce05-4ec8-92bb-cb0e29b75f95','16','4f16268f-ccc0-4383-a59a-55e17760610d','60c1d22e-ce62-4cd2-9d31-c1cc9da2b5a9','08/07/2019','false')
 insert into SLTons 
-values ('a61389fa-0257-441c-b65d-e8f182442642','10','784a6243-c445-460a-93eb-ad4b020e5d68','12/08/2019','false')
+values ('a61389fa-0257-441c-b65d-e8f182442642','10','784a6243-c445-460a-93eb-ad4b020e5d68','b6a544a5-0917-4d3b-a975-c1104953f6ed','12/08/2019','false')
 insert into SLTons 
-values ('e3436b9a-fb6f-4d1a-ba71-b3e8d5439ba3','115','f2e30434-4b22-431c-936c-bd13b4d69890','11/09/2019','false')
+values ('e3436b9a-fb6f-4d1a-ba71-b3e8d5439ba3','115','f2e30434-4b22-431c-936c-bd13b4d69890','b3ba0b28-c711-4291-9398-2daece34152b','11/09/2019','false')
 insert into SLTons 
-values ('fd0f9cb4-ff18-4ab9-bd6d-bfcce795f663','12','ff784f1a-688e-403f-b727-bc64aa795ccf','11/09/2019','false')
+values ('fd0f9cb4-ff18-4ab9-bd6d-bfcce795f663','12','ff784f1a-688e-403f-b727-bc64aa795ccf','ff784f1a-688e-403f-b727-bc64aa795ccf','11/09/2019','false')
 insert into SLTons 
-values ('2da7af61-dcc8-4161-83d6-cd6a297f761c','19','18de371f-d8e1-4e26-be3a-d908a72ddcd8','12/09/2019','false')
+values ('2da7af61-dcc8-4161-83d6-cd6a297f761c','19','18de371f-d8e1-4e26-be3a-d908a72ddcd8','28b56d07-3827-48d4-b635-f0bc0f14271a','12/09/2019','false')
 insert into SLTons 
-values ('aee6c24e-b40a-4c93-b4d2-8ba00a7c53ed','12','4f16268f-ccc0-4383-a59a-55e17760610d','05/10/2019','false')
+values ('aee6c24e-b40a-4c93-b4d2-8ba00a7c53ed','12','4f16268f-ccc0-4383-a59a-55e17760610d','60c1d22e-ce62-4cd2-9d31-c1cc9da2b5a9','05/10/2019','false')
 insert into SLTons 
-values ('94427639-ed23-4fc1-9169-edfcb5d2b947','14','e99c1092-9c0f-4f17-982e-89f751c9ad47','07/10/2019','false')
+values ('94427639-ed23-4fc1-9169-edfcb5d2b947','14','e99c1092-9c0f-4f17-982e-89f751c9ad47','28094f20-ebba-4292-ac75-df252f8838fe','07/10/2019','false')
+insert into SLTons
+values ('b978106d-b738-4964-b491-5e2c879b1f5b','6','77758b08-d93a-438e-8ee7-64d917c68dff','60c1d22e-ce62-4cd2-9d31-c1cc9da2b5a9','11/11/2019','false')
 insert into SLTons 
-values ('b978106d-b738-4964-b491-5e2c879b1f5b','6','77758b08-d93a-438e-8ee7-64d917c68dff','11/11/2019','false')
-insert into SLTons 
-values ('19a50c56-2f4a-41fc-ba28-82f86752b1a5','15','18de371f-d8e1-4e26-be3a-d908a72ddcd8','10/12/2019','false')
+values ('19a50c56-2f4a-41fc-ba28-82f86752b1a5','15','18de371f-d8e1-4e26-be3a-d908a72ddcd8','28094f20-ebba-4292-ac75-df252f8838fe','10/12/2019','false')
 
 go
 
@@ -359,7 +359,7 @@ where MaSP='ff784f1a-688e-403f-b727-bc64aa795ccf'
 order by createdDate desc
 
 select * froM DonGiaBans
-
+select * from SLTons
 
 
 

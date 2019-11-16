@@ -81,9 +81,13 @@
     <Compile Include="Entity\SanPham_NCC.cs" />
     <Compile Include="Entity\SLTon.cs" />
     <Compile Include="Entity\TaiKhoan.cs" />
-    <Compile Include="Migrations\201911110515160_IntialDb.cs" />
-    <Compile Include="Migrations\201911110515160_IntialDb.Designer.cs">
-      <DependentUpon>201911110515160_IntialDb.cs</DependentUpon>
+    <Compile Include="Migrations\201911120740090_InitialCreate.cs" />
+    <Compile Include="Migrations\201911120740090_InitialCreate.Designer.cs">
+      <DependentUpon>201911120740090_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911120743145_IntialDb.cs" />
+    <Compile Include="Migrations\201911120743145_IntialDb.Designer.cs">
+      <DependentUpon>201911120743145_IntialDb.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
@@ -94,8 +98,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201911110515160_IntialDb.resx">
-      <DependentUpon>201911110515160_IntialDb.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201911120740090_InitialCreate.resx">
+      <DependentUpon>201911120740090_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911120743145_IntialDb.resx">
+      <DependentUpon>201911120743145_IntialDb.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

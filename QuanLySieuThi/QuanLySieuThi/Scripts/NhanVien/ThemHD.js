@@ -65,70 +65,96 @@
                 cssClass: "cell-highlighted"
             }
         ],
-        editing: {
-            allowAdding: true,
-            mode: "popup",
-            form: {
-                items: [{
-                    itemType: "group",
-                    caption:"",
-                    items: [
-                        {
-                            dataField: "TenSP", 
-                            editorType: "dxSelectBox",
-                            label: {
-                                text:"Tên sản phẩm"
-                            },
-                            editorOptions: {
-                                dataSource: sp_ncc,
-                                valueExpr: "id",
-                                displayExpr: "TenSP",
-                                placeholder: "Chọn sản phẩm...",
-                                onSelectionChanged: function (e) {
-                                    alert(e.selectedItem.MoTa);
-                                },
-                                itemTemplate: function (itemData, itemIndex, itemElement) {
-                                    return $("<div/>").append(itemData.TenSP + "-" + itemData.TenNCC);
-                                }
-                            }
-                            
-                        },                     
-                        {
-                            dataField: "SLBan",
-                            label: {
-                                text:"Số lượng"
-                            },
-                            editorType: "dxNumberBox",
-                        }
-                    ]
-                },
-                    {
-                        itemType: "group", 
-                        caption:"",
+        onToolbarPreparing: function (e) {
+            var toolbarItems = e.toolbarOptions.items;
+             toolbarItems.push({
+                 widget: 'dxButton',
+                 options: {
+                     icon: 'add',
+                     onClick: function () {
+                         init_popup({});
+                     }
+                 },
+                 location: 'after'
+             });
+        },
+    }); 
+
+    function init_popup(_data) {
+        $("#popup_edit").dxPopup({
+            title: "Chi tiết hồ sơ",
+            position: "center",
+            maxHeight: 800,
+            minWeight: 800,
+            closeOnOutsideClick: true,
+            contentTemplate: function (e) {
+                return $("<div id='form_edit'>").dxForm({
+                    data: _data,
+                    items: [{
+                        itemType: "group",
+                        caption: "",
+                        colCount: 2,
+                        colSpan: 2,
                         items: [
                             {
-                                dataField: "GiaBan",
+                                dataField: "TenSP",
+                                colSpan: 1,
+                                editorType: "dxSelectBox",
                                 label: {
-                                    text:"Giá bán"
+                                    text: "Tên sản phẩm"
+                                },
+                                editorOptions: {
+                                    dataSource: sp_ncc,
+                                    valueExpr: "id",
+                                    displayExpr: "TenSP",
+                                    placeholder: "Chọn sản phẩm...",
+                                    onSelectionChanged: function (e) {
+                                        alert(e.selectedItem.MaSP + e.selectedItem.MaNCC);
+                                    },
+                                    itemTemplate: function (itemData, itemIndex, itemElement) {
+                                        return $("<div/>").append(itemData.TenSP + "-" + itemData.TenNCC);
+                                    }
+                                }
+
+                            },
+                            {
+                                dataField: "SLTon",
+                                label: {
+                                    text: "Số lượng tồn"
                                 },
                                 editorType: "dxNumberBox",
                                 editorOptions: {
                                     readOnly: true
                                 }
-                            },
-                         ]
+                            }, {
+                                dataField: "SLBan",
+                                label: {
+                                    text: "Số lượng bán"
+                                },
+                                editorType: "dxNumberBox",
+                                editorOptions: {
+
+                                }
+                            }, {
+                                dataField: "GiaBan",
+                                label: {
+                                    text: "Giá bán"
+                                },
+                                editorType: "dxNumberBox",
+                                editorOptions: {
+                                    readOnly: true
+                                }
+                            }
+                        ]
                     }
-                ]
-            },
-            texts: {
-                addRow: "Thêm sản phẩm",              
-                cancelRowChanges: "Hủy",               
-                saveRowChanges: "Thêm"
-                
-            },
-            
-        }
-    }); 
+                    ]
+            });
+            }
+        });
+        $("#popup_edit").dxPopup("show");
+    }
+
+    
 
     
 });

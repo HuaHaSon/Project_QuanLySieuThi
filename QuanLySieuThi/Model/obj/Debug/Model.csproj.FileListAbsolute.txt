@@ -48,3 +48,18 @@ D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Mod
 D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.csprojAssemblyReference.cache
 D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.Migrations.IntialDb.resources
 D:\Tai Lieu CNTT\Seminar\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.csproj.GenerateResource.cache
+E:\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\Model.exe.config
+E:\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\Model.exe
+E:\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\Model.pdb
+E:\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\EntityFramework.dll
+E:\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\EntityFramework.xml
+E:\Project_QuanLySieuThi\QuanLySieuThi\Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+E:\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.csproj.CopyComplete
+E:\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.exe
+E:\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.pdb
+E:\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.csprojAssemblyReference.cache
+E:\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.Migrations.InitialCreate.resources
+E:\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.csproj.GenerateResource.cache
+E:\Project_QuanLySieuThi\QuanLySieuThi\Model\obj\Debug\Model.Migrations.IntialDb.resources
